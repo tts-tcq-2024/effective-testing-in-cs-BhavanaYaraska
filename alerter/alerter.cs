@@ -7,7 +7,7 @@ namespace AlerterSpace {
         // Delegate for network alert function
         static Func<float, int> networkAlert = (celcius) => {
             Console.WriteLine("ALERT: Temperature is {0} celcius", celcius);
-            return 200; // Default stub
+            return 200; 
         };
 
         public static void SetNetworkAlertFunction(Func<float, int> alertFunction) {
