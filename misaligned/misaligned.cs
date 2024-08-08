@@ -24,9 +24,7 @@ namespace MisalignedSpace {
         }
 
         static bool CheckColorMapping() {
-            // Manual inspection needed for now.
-            // The current code will print color combinations but the minor color index is not correct.
-            // For the exercise, we simulate failure by returning false.
+
             return false; // Simulate that mapping check fails
         }
     }
